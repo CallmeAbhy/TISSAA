@@ -1,0 +1,141 @@
+
+.academic-in-text {
+    color: rgba(22,87,40,1);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.dropdown-text {
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+
+#id_cscd_campus, #id_cscd_school, #id_cscd_centre {
+	width: 100% !important;
+	background: white;
+	padding: 10px;
+	border-radius: 8px;
+	/*text-transform: uppercase;*/
+	font-size: 16px;
+}
+
+.academic-card-img-container {
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(22,87,40,1);
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 174px;
+}
+
+.academic-name {
+    font-size: 19px;
+    color: rgba(22,87,40,1);
+    font-weight: bold;
+    font-family: Alegreya sans-serif;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+
+.academic-card-container {
+	background: white;
+	border-radius: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.academic-staff-card {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.academic-designation {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.academic-info {
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.academic-full-profile-link{
+    text-decoration: underline;
+    color: rgba(22,87,40,1);
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 10px;	
+}
+
+.current-page {
+    width: 40px;
+    height: 40px;
+    background: rgba(22,87,40,1) !important;
+    padding-top: 8px;
+    /* display: inline-block; */
+    border-radius: 50%;
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.page-number {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .academic-in-text {
+        margin-left: unset !important;
+
+
+    }
+
+    .academic-text-container > *{
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .dropdown-text {
+        margin-top: 20px;
+    }
+
+    .academic-details-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .academic-staff-card {
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    #tiss-searchbox2 {
+        margin-top: 10px;
+    }
+
+}
+
+#v-pills-academic .row:first-child > .col-md-3 {
+    text-align: right;
+}

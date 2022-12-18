@@ -1,0 +1,121 @@
+#Group_215 {
+	position: absolute;
+    width: 30.5px;
+    height: 34.5px;
+    /*left: 1595px;*/
+    /*top: 1291px;*/
+    overflow: visible;
+}
+
+.Ellipse_228 {
+    position: absolute;
+    overflow: visible;
+    width: 26px;
+    height: 26px;
+    left: 1px;
+    top: 8px;
+}
+
+#Ellipse_228 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Line_169 {
+    overflow: visible;
+    position: absolute;
+    width: 7.826px;
+    height: 11.826px;
+    left: 25.5px;
+    top: 25.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#Line_169 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.search-icon-container {
+    position: relative;
+    height: 44px;
+    background: rgba(22,87,40,1);
+    width: 50px;
+    border-radius: 6px;
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Ellipse_2281 {
+    position: absolute;
+    overflow: visible;
+    width: 26px;
+    height: 26px;
+    left: 13px;
+    top: 10px;
+}
+
+#Ellipse_2281 {
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.form-control:focus {
+    border-color: #9eea9c !important;
+    box-shadow: 0 0 0 .18rem rgba(179, 196, 183, 0.69) !important;
+}
+
+.input-group {
+    align-items: center !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .search-icon-container {
+        margin-top: 10px !important;
+    }
+
+    .search-text-with-btn {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+.search-icon {
+    position: relative;
+    height: 44px;
+    background: rgba(22,87,40,1);
+    width: auto;
+    border-radius: 6px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Line_1691 {
+    overflow: visible;
+    position: absolute;
+    width: 7.826px;
+    height: 11.826px;
+    left: 15.5px;
+    top: 24.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+

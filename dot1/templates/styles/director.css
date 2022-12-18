@@ -1,0 +1,83 @@
+.bg-img1 {
+	background-image: url("../../../external.html?link=https://tiss.edu/uploads/images/Group 172.png");
+}
+.text-over-img {
+	font-size: 36px;
+    background: #00000087;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    letter-spacing: 1px;
+    padding: 0px;
+}
+
+.faculty-name {
+	font-size: 24px;
+    color: rgba(22,87,40,1);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    ,margin-top: 21px;
+}
+.faculty-position {
+	font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.faculty-qualifications {
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+span.faculty-profile-link {
+    font-size: 18px;
+    color: rgba(22,87,40,1);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.faculty-position1 {
+	margin-bottom: 10px;
+}
+
+.faculty-university {
+	margin-bottom: 10px;
+}
+.img-section {
+	background: white;
+	padding: 7px;
+}
+.heading-profile {
+	    display: block;
+    border-top: 2px solid rgba(22,87,40,1);
+    width: max-content;
+    border-bottom: 2px solid rgba(22,87,40,1);
+    padding-left: 0px;
+    margin-left: 25px;
+    padding-right: 3px;
+    color: rgba(22,87,40,1);
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    margin-top: -17px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-margin {
+        margin-left: unset !important;
+    }
+    .custom-margin {
+        margin-left: 20px !important;
+    }
+    .custom-padding {
+        padding: 20px !important;
+        margin-top: -8px !important;
+    }
+}

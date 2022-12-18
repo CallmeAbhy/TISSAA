@@ -1,0 +1,135 @@
+
+
+.bg-img1 {
+	background-image: url("../../../external.html?link=https://tiss.edu/uploads/images/Group398.png");
+	min-height: 400px !important;
+}
+
+.brochure-text, .research-text {
+    color: black;
+    padding-left: 14px;
+    border-left: 3px solid rgba(22,87,40,1);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-bottom: unset !important;
+}
+
+#next_18 {
+    position: absolute;
+    width: 25px;
+    height: 21px;
+    left: -35px;
+    top: 0;
+    overflow: visible;
+    cursor: pointer;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#next_18_gi {
+    position: absolute;
+    width: 25px;
+    height: 21px;
+    right: -45px;
+    top: 0;
+    overflow: visible;
+    cursor: pointer;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Path_197 {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    overflow: visible;
+    position: absolute;
+    width: 119px;
+    height: 52px;
+    left: 12px;
+    top: 10px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#Path_197 {
+	fill: rgba(22,87,40,1);
+}
+
+#book-cards .col-md-3.active {
+	display: block ;
+}
+
+#book-cards .col-md-3 {
+	display: none;
+}
+
+
+.research-publications {
+	border-bottom: unset !important;
+}
+
+#book-cards img {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	cursor: pointer;
+}
+
+.carousel-item .col-md-3 {
+	padding-left: calc(var(--bs-gutter-x) * .5);
+	padding-right: calc(var(--bs-gutter-x) * .5);
+}
+
+@media only screen and (max-width: 768px) {
+
+	#book-cards .books-1.active:not(:first-child) {
+		display: none !important;
+	}
+
+
+/*	#book-cards .books-2:not(:first-child) {
+		display: none !important;
+	}*/
+
+	#next_18 , #next_18_gi{
+		display: none;
+	}
+
+	.col-12 {
+		width: 100% !important;
+	}
+
+	.row .col-lg-6:not(:first-child){
+		margin-top: 40px;
+	}
+
+	.bg-img1 {
+		background-image: url("../../../external.html?link=https://tiss.edu/uploads/images/Group398.png");
+		min-height: 200px !important;
+		background-size: cover !important;
+	}
+
+	#slider-labels ~ .row {
+		margin-top: 20px !important;
+	}
+
+}
+
+.carousel-item {
+	/*transition: transform 1.6s linear !important;	*/
+	/*margin-right: -110% !important;*/
+}
+
+@media only screen and (max-width: 992px) {
+	.mx-auto {
+		width: 100% !important;
+	}
+
+	.carousel-item .col-md-3 .card-img img {
+		height: 400px !important;
+	}
+
+	.carousel-item {
+		transition: unset !important;
+		margin-right: unset !important;
+	}
+}

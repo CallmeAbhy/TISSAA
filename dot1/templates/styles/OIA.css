@@ -1,0 +1,599 @@
+@import url('../../../external.html?link=https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+@import url('../../../external.html?link=https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&amp;display=swap');
+
+  .text-over-img{
+
+    font-size:4vh;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 3px;
+    font-family: 'Bebas Neue', cursive;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    padding-bottom: 3px;
+    border-radius: 2vh;
+    letter-spacing: .3vw;
+  }
+  .hr-top{
+    border:1px solid white;
+    height: 50%;
+    width: 80%;   
+    border-radius: 10px;
+    opacity: 10;
+    margin:2vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  .hr_about{
+    width: 10vw;
+    margin-left:.5vw;
+    border:2px solid rgb(10, 54, 23);
+    
+  }
+
+  .heading_about{
+    font-size: 2em;
+    margin: auto;
+  }
+  .carousel-control-next-icon{
+    background-image: url('../../../external.html?link=https://tiss.edu/templates/static/images/next_18_gt.png');
+  }
+  .carousel-control-prev-icon{
+    background-image: url('../../../external.html?link=https://tiss.edu/templates/static/images/next_18.png');
+  }
+
+  .bg-img03{
+    /* background-image: url('../static/images/n_3f9e07be9bcf61a2105827e95582.png'); */
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 70% 73%;
+}
+
+  .bg-img03{
+    /* background-image:url('../static/images/n_3f9e07be9bcf61a2105827e95582.png'); */
+    }
+
+  .bg-img1{
+    /* background-image:url('../static/images/stud4.png'); */
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 101% 100%;
+  }
+  .bg-img2{
+    /* background-image:url('../static/images/n_3f9e07be9bcf61a2105827e95582.png'); */
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: 70% 73%;
+  }
+  /* .bg-img3{
+    background-image:url('../static/images/a926308ef91f2e1a04310f08a1ae8b@2x.png');
+  } */
+
+  .forward_img{
+    height: 2vh;
+    width: 1vw;
+    margin-top: 0.7vh;
+    margin-bottom: 1vw;
+    /* border: 2px solid black; */
+  }
+
+  .heading_Bottom {
+    border-bottom: 3px solid rgba(22,87,40,1);
+    margin-top: 2vh;
+    font-size: 20px;
+    width: 8vw;
+    margin-left: 1vw;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+  .text_container{
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+  }
+  .read_more{
+    color: green;
+    margin-top: 2vh;
+  }
+
+  
+  .Upcoming_event_text 
+  {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid rgb(38, 148, 75); 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    margin-bottom: 1vh;
+    color: rgb(1, 14, 1);
+  } 
+  
+  .Upcoming_event_text span { 
+    background:#fff; 
+    padding:0 10px; 
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  
+  .text_container_upcoming_event{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content:center;
+  }
+  /* .card-event{
+    background-color: rgb(240, 241, 240);
+    opacity: .9;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:40vh;
+    width: 30%;
+    margin: auto;
+    
+  } */
+
+
+  /* UPCOMING EVENTS */
+  
+  
+  
+  .card-event{
+    height: 301px;
+    width: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    /* opacity: 0.8; */
+    background-color: #D0DDD4;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(123, 192, 144, 0.2), 0 6px 6px 0 rgba(166, 159, 159, 0.5);
+    color: white;
+    }
+
+.card-event-container {
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-event-text{
+    height: 20%;
+    color: #0c0702;
+    transition: ease-in-out 0.5s;
+    display:flex;
+    align-items: center;
+    font-size: 100%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    text-indent: 1vw;
+}
+
+
+#next_19_es {
+  position: absolute;
+  width:18px;
+  height: 18px;
+  left: auto;
+  margin-left: 30px;
+  top: 5px;
+  overflow: visible;
+}
+
+.announcement-event-text {
+  border-bottom: 2px solid rgba(22,87,40,1);
+  border-block-width: 3px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 19px;
+  margin-top: 30px;
+  width: max-content !important;
+  margin-left: 10px;
+  margin-right: 30px;
+  text-indent: -10px;
+}
+
+.event-img {
+    height: 60%;
+    width:100%;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    margin: auto;
+    font-size: smaller;
+    font-family:sans-serif;
+
+    /* justify-content:; */
+    align-items: center;
+    /* background: #7eb185; */
+}
+
+
+.event-img img{
+  height: 40%;
+}
+.event-img ul{
+  font-size: medium;
+  padding-right: 5px;
+}
+
+.card-footer{
+    /* background-color: #8be49e; */
+    background-color: #D0DDD4;
+    height: 20%;
+    display:flex;
+    border: none;
+    color: #f0ebe8;
+    /* justify-content:baseline; */
+    align-items:flex-end;
+    flex-direction: row-reverse;
+    font-size: 100%;
+}
+
+
+
+.card-event-button {
+  margin-right: 1vw;
+  height: 60%;
+  width: 42%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  transition: ease-in-out 0.35s;
+  color: white;
+  background-color: #165728;
+}
+
+/* HOVER EFFECT */
+/*   
+.card-event-button:hover{
+  margin-right: 1vw; 
+  height: 40%;
+  width: 40%;
+  transition: ease-in-out 0.35s;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5%;
+    color: white;
+    background-color: rgb(16, 122, 16);
+  } */
+  
+  /* HOVER EFFECT */
+  
+  /* UPCOMING EVENTS */
+
+
+  
+  .card-event-contact_1{
+    background-color: #D0DDD4;
+    background-image:url('../../../external.html?link=https://tiss.edu/uploads/Group_459.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    opacity: 1;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    border: none;
+    align-items:center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    height: 33vh;
+    width: 49%;
+    margin-left: 0vw;
+    
+  }
+  
+  .card-event-contact_2{
+    background-color: #D0DDD4;
+    opacity: 1;
+    display: block;
+    margin-bottom: 2vh;
+    border: none;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    height: 33vh;
+    width: 49%;
+    margin-left:2%;
+    
+  }
+  .card-text{
+    color: rgb(244, 244, 244);
+    /* font-size: 3vh; */
+    height: 30%;
+    /* text-indent: 1vw; */
+    text-align: justify;
+  }
+  .card-img-top{
+    height: 10vh;
+    width: 10vh;
+  }
+
+/* GLIMPSE CONTENT */
+  .GLIMPSE_Container{
+    display: flex;
+    background-color: #E7EEE9;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    margin-right: 1vw;
+    justify-content: center;
+  }
+  .Glimpse_sub_container{
+    display: flex;
+    margin: 1vh;
+    max-width: 100%;
+    max-height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: auto;
+    justify-content: space-around;
+    /*  */
+  }
+.Glimpse_sub_container_block{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50%;
+    width: 51%;
+}
+
+
+.Glimpse_sub_container_block img{
+    width: 100%;
+    border-radius: 20px;
+    /* height: 100%; */
+    /* object-fit: contain; */
+    max-width: max-content;
+    
+}
+.container_Tiss 
+{
+position: relative;
+height: auto;
+}
+
+        /* body {
+            background: rgb(34, 25, 25);
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        } */
+
+        .swiper {
+            width: 100%;
+            height: 70%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* background: bisque; */
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+           
+        }
+
+        .swiper-slide img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.5vh;
+            border-radius: 10px;
+            width: 80%;
+            margin-bottom: 5vh;
+            height: 400px;
+            object-fit: fill;
+        }
+
+        .swiper {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        .forward{
+            background-image: url('../../../external.html?link=https://tiss.edu/templates/static/images/next_18_gt.png');
+            position: absolute;
+            top: 39%;
+            width: 8%;
+            height:18%;
+            background-size: 50%;
+            background-repeat: no-repeat;
+            margin-left:95%;
+            z-index: 10;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--swiper-navigation-color, var(--swiper-theme-color));
+        }
+        .previous{
+            position: absolute;
+            top: 39%;
+            width: 8%;
+            background-size: 30%;
+            height: 16%;
+            z-index: 10;
+            background-repeat: no-repeat;
+            margin-right: 10%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
+            background-image: url('../../../external.html?link=https://tiss.edu/templates/static/images/next_18.png');
+
+        }
+
+@media screen and (max-width: 1000px) 
+{
+  
+.card-event-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.adjusted-header-center{
+  align-content: center; 
+  display: flex;
+  flex-direction: column;
+}
+    
+.card-event 
+{
+        height: 250px;
+        width: 100%;
+        background-color: #D0DDD4;
+        margin-left: 10px;
+        transition: ease-in-out 0.5s;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-left:0px;
+    }
+    
+    .card-event-button{
+    height:80%;
+    width: 30%;
+    margin-bottom: .5%;
+    margin-right: 5%; 
+    margin-bottom: .5%;
+}
+  .text-over-img{
+    font-size:2vh;
+    margin-bottom: 1vh;
+  }
+/*   
+  .event-img ul{
+    margin-left: -8px;
+  } */
+  .text_container_upcoming_event{
+    display: flex;
+    margin-top: 1vh;
+    justify-content:space-evenly;
+    flex-direction: column;
+  }
+  .hr_about{
+    margin-left:2vw;
+    width: 5vw;
+  }
+  
+  
+  .card-event-contact_1{
+    height: 35vh;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 2vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+  }
+  
+  .card-event-contact_2{
+    height: 35vh;
+    justify-content: center;
+    align-items: baseline;
+    width:100%;
+    margin-bottom: 2vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+  }
+
+  
+  .swiper-slide img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: 5vh;
+    height: 200px;
+    object-fit: fill;
+}
+
+
+  
+  .forward{
+            background-image: url('../../../external.html?link=https://tiss.edu/templates/static/images/next_18_gt.png');
+            position: absolute;
+            top: 39%;
+            width: 8%;
+            height: 18%;
+            background-size: 30%;
+            background-repeat: no-repeat;
+            margin-left:91%;
+            z-index: 10;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--swiper-navigation-color, var(--swiper-theme-color));
+        }
+        .previous{
+            position: absolute;
+            top: 39%;
+            width: 8%;
+            height: 18%;
+            background-size: 30%;
+            z-index: 10;
+            background-repeat: no-repeat;
+            margin-left: 5%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
+            background-image: url('../../../external.html?link=https://tiss.edu/templates/static/images/next_18.png');
+
+        }
+}

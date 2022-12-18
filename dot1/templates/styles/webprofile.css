@@ -1,0 +1,223 @@
+
+body {
+	font-family: Alegreya Sans !important;
+}
+
+.adjusted-content-center{
+	align-content:center;
+	width: calc(1000px);
+	margin-left: auto;
+	margin-right: auto;	
+}
+   .bg-brochers-img{
+   	
+   	background-image: url("../../../external.html?link=https://tiss.edu/uploads/images/TISS-E21-001_copy.png");
+  	min-height: 480px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	position: relative;
+	/*background-size: 100% 100%;*/
+   }
+
+
+.carousel-caption {
+  top: 36%;
+}
+
+.carousel-content-box {
+  /*background: rgb(0 0 0 / 60%);*/
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-content {
+  font-family: Bebas Neue;
+  letter-spacing: 2px;
+  font-size: 36px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel-content-text {
+  border-top: 2px solid rgba(22,87,40,1);
+  border-bottom: 2px solid rgba(22,87,40,1);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: rgba(22,87,40,1);
+}
+
+
+.imp-note {
+	background: rgba(22,87,40,1);
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: Alegreya sans;
+    /* font-weight: bold; */
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left-main-card {
+	background: white;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    border-radius: 6px;
+    padding: 0px;
+    height: max-content;
+    padding-bottom: 40px;
+}
+
+.faculty-name {
+	color: rgba(22,87,40,1);
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: Alegreya sans;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.faculty-designation {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    margin-top: 2px;	
+}
+
+
+.faculty-qualification-title {
+	font-weight: bold;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    font-family: Alegreya Sans;
+}
+
+.faculty-contact-title{
+	font-family: Alegreya sans;
+	margin-bottom: 10px;
+}
+
+.faculty-contact-title {
+	margin-top: 20px;
+	font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Alegreya Sans;
+}
+
+.profile-container {
+	padding: 30px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.faculty-email {
+	margin-top: 16px;
+	position: relative;
+}
+
+.faculty-phoneno {
+	margin-top: 20px;
+	position: relative;
+}
+
+.faculty-faxno {
+	margin-top: 20px;
+	position: relative;
+}
+
+.circular-icon {
+	position: absolute;
+    background: rgba(255,255,255,1);
+    border-radius: 50%;
+    filter: drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.161));
+    padding: 6px;
+    margin-top: -8px;
+}
+
+#right-faculty-profile-menus {
+	border-bottom: 3.5px solid rgba(22,87,40,1);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: white;
+	background-color: rgba(22,87,40,1) !important;
+	padding: 12px;
+	border-radius: 20px;
+	border-color: unset !important	;
+}
+
+#right-faculty-profile-menus.nav {
+	padding: 0px !important;
+	overflow: hidden;
+}
+
+#right-faculty-profile-menus .nav-link {
+	padding: 12px !important;
+	font-size: 12px;
+	letter-spacing: 1px;
+	border: unset !important;
+}
+
+#right-faculty-profile-menus .nav-link {
+	/*border-radius: 12px !important;*/
+	background: rgba(208,221,212,1);
+	margin-right: auto;
+	margin-left: auto;
+	border-top-left-radius: 12px !important;
+	border-top-right-radius: 12px !important;
+	border-radius: unset;
+}
+
+.tab-content {
+	padding: 10px;
+	padding-top: 20px;
+}
+
+ul#publication-details li {
+	padding-top: 12px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.left-main-card {
+	margin-bottom: 40px !important;
+}
+
+#right-faculty-profile-menus .nav-link {
+	width: 100%;
+	border-radius: unset !important;
+}
+
+#right-faculty-profile-menus.nav {
+	display: block;
+}
+
+.bg-brochers-img {
+	min-height: 300px !important;
+}
+
+.carousel-content {
+	font-size: 20px !important;
+}
+
+}
+
+
+
+@media screen and (min--moz-device-pixel-ratio:0) { 
+#right-faculty-profile-menus .nav-link {
+  font-size: 10px !important;
+}
+}
+
+
+.faculty-phoneno span p a:first-child {
+	word-break: break-word;
+}

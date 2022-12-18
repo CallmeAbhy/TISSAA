@@ -1,0 +1,79 @@
+					<!-- side bar section Starts -->
+<div id="block-block-18" class="block block-block">
+	<div class="content">
+
+		<div class="box-shadow-preview">
+			<div class="stdbox">Special Annnouncements </div>
+			<script language="JavaScript" src="/home/js/newscroller.js" type="text/javascript"></script>
+			<div style="position:relative;width:100%;height:220px;overflow:hidden" onmouseover="copyspeed=pausespeed"
+				onmouseout="copyspeed=scrollerspeed">
+				<div id="iescroller" style="position:absolute; left:0px; top:px;width: 100%;">
+					
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+</div>
+<!-- side bar section ends -->
+
+
+
+<div class="pagesection pagesection--paneltest wf-section">
+	<div class="pagecontainer">
+		<div class="featuresummary featuresummary--reversed">
+			<div class="featuresummary-column">
+				<div class="panelad-image">
+					<!-- side bar section Starts -->
+					<div id="block-block-18" class="block block-block">
+						<div class="content">
+					
+							<div class="box-shadow-preview">
+								<div class="stdbox">Special Annnouncements </div>
+								<script language="JavaScript" src="/home/js/newscroller.js" type="text/javascript"></script>
+								<div style="position:relative;width:100%;height:220px;overflow:hidden" onmouseover="copyspeed=pausespeed"
+									onmouseout="copyspeed=scrollerspeed">
+									<div id="iescroller" style="position:absolute; left:0px; top:px;width: 100%;">
+										
+									</div>
+								</div>
+					
+					
+							</div>
+					
+						</div>
+					</div>
+					<!-- side bar section ends -->
+				</div>
+			</div>
+			<div class="featuresummary-column featuresummary-column--verticalpadded">
+				<h2 class="heading h2 light">
+					<span>TISSAA GENESIS</span>
+
+				</h2>
+				<div class="text subheader light spacebelow">
+					
+				TISS has contributed immensely to our country's development by creating high-quality professionals since
+				1936. The alums of TISS have been providing their professional services to improve the quality of lives
+				of people. The Alums have great potential to contribute to the mutual benefits of our institute and
+				students.
+
+				Tata Institute of Social Sciences Alums Association (TISSAA) is a registered not-for-profit organisation
+				incorporated in 2013 under the provisions of the Bombay Public Trust Act and Societies Registration Act.
+				TISSAA is the Association of Alums across courses, batches and campuses.
+
+				TISSAA works towards strengthening Alums engagement for their mutual benefit, i.e., to support the Alums
+				for their personal and professional growth.
+				</div>
+				<a href="" class="button button--blue w-button">Learn More</a>
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+</div>
