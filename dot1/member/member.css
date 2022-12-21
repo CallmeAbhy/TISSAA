@@ -24,15 +24,15 @@
     color: #fff;
     padding: 15px 30px;
     margin: 0 20px;
-    background: linear-gradient(to right, #FFD662FF,#00539CFF);
+    background: linear-gradient(45deg, rgba(10,200,250), rgba(0,72,255));
     border: 2px solid blue;
 }
 .btn-grp .btn-2{
-    /* background: linear-gradient(45deg, rgb(255,1,200), rgb(255,35,6)); */
-    background: linear-gradient(to left, #FFD662FF,#00539CFF);
+    background: linear-gradient(45deg, rgb(255,1,200), rgb(255,35,6));
+
     border: 2px solid rgb(255, 0, 179);
 }
-.btn:hover{
+.btn-grp .btn:hover{
     background:  transparent;
 }
 svg{
